@@ -1,0 +1,168 @@
+<!--Aprendizagem de Desenvolvimento de Software
+Introdução ao Desenvolvimento Web com Prof Hudson
+Aluno:
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Desafio HTML</title>
+</head>
+<body>
+<h1>Ola, Mundo do Desenvolvimento Web!</h1>
+<p>Este e o meu primeiro desafio de criação de uma pagina HTML.</p>
+<!--Tipos de Titulos-->
+<h1>Meu blog de viagens</h1>
+<h2>Destinos Populares</h2>
+<h3>Europa</h3>
+<h4>italia</h4>]
+<!--Paragrafo-->
+<p>
+  Descubra as belezas da Italia, desde suas cidades historicas ate suas
+  paisagens deslumbrantes.
+</p>
+<h3>Asia</h3>
+<h4>Japão</h4>
+<p>Explore a rica cultura e as inovações tecnologicas do Japão</p>
+<!--Paragrafos-->
+<p>
+  Este e um exemplo de paragrafo no HTML. Ele introduz o conceito de blocos
+  de texto, fundamentais para a estruturação do conteudo em uma pagina web.
+  Paragrafos ajudam a separar visualmente diferentes ideias ou seções de
+  texto, tornado o conteudo mais facil de ler e navegar. 
+</p>
+<p>
+  Ao criar conteudo para a web, e importante considerar como os paragrafos
+  são usados para guiar o leitor atravez do seu texto. Uma boa pratica e
+  focar em uma unica ideia por paragrafo, utilizando frases claras e
+  diretas.
+</p>
+<!--Atributos-->
+<div id= "secao-principal">
+</div>
+<p class="texto-destaque"></p>
+<img src="img/img1.jpg" alt="Descrição" />
+<!--Imagens-->
+<img src="img/img2.jpg" alt="Descrição da Imagem" />
+<!--Imagem externa-->
+<img 
+src="https://www.w3docs.com/uploads/media/default/0001/05/6d07a36ebe6d55273b39440f2391f1d7e6d4092a.png" 
+alt="Descrição da Imagem Externa" />
+<!--Listas-->
+<ol>
+  <li>Iniciar o computador</li>
+  <li>Abrir o navegador</li>
+  <li>Acessar o site desejado</li>
+</ol>
+<ul>
+  <li>Maçãs</li>
+  <li>Bananas</li>
+  <li>Laranjas</li>
+</ul>
+<ul>
+  <li>
+    Frutas
+    </ul>
+    <li>Maçãs</li>
+    <li>Bananas</li>
+   <ul>
+   </li>
+   <li>
+     Verduras
+     <ul>
+       <li>Espinafre</li>]
+       <li>Alface</li>
+     </ul>
+    </li>
+   </ul>
+<!--Elementos para formatação-->
+<p>
+  <strong>Testo importante</strong>, geralmente usado para indicar forte
+  enfase. <b>texto apenas em negrito</b> sem implicar maior importancia.
+</p>
+<p>
+<em>Enfatizado</em>, geralmente para indicar enfase moderada.
+<i>Texto em italico</i> para fins de estilo.
+</p>
+<p>
+  <u>Texto sublinhado</u> usado para indicar adições ou para fins
+  estilisticos.
+</p>
+<p><s>texto riscado</s> para mostrar remoção ou correção.</p>
+<p><mark>texto destacado</mark> para chamar atenção.</p>
+</p>
+<!--Comentarios-->
+<!--Isto e um comentario simples no HTML-->
+<p>Este e um paragrafo visivel na pagina.</p>
+<!--
+Este e um comentario de multiplas linhas.
+Pode ser muito util para explicar partes mais complexas do seu codigo
+ou para temporariamente desativar parte do codigo.
+-->
+<!-- Comentários também podem ser usados para deixar lembretes --> 
+<!-- TODO: Adicionar mais conteúdo sobre o tema -->
+<!-- Elementos inline de bloco -->
+<p>
+Este é um exemplo de <strong>elemento inline</strong> dentro de um
+parágrafo.
+</p>
+<div>
+Este é um exemplo de
+<div>elemento em bloco</div>
+dentro de outro bloco.
+</div>
+<p>
+No exemplo acima, <strong> é um elemento inline </strong> que formata
+parte do texto dentro do parágrafo, sem interromper o fluxo do texto.
+</p>
+<!-- div -->
+<div class="header">
+<h1>Título da Página</h1>
+</div>
+<div class="content">
+<p>Este é um parágrafo dentro de uma seção de conteúdo.</p>
+</div>
+<div class="footer">
+<p>Direitos autorais (c) 2024.</p>
+</div>
+</body>
+</html>
+<!--Isto é umm comentário simples no HTML-->
+<p>Este é um parágrafo visível na página.</p>
+<!--
+Este é um comentário de múltiplas linhas.
+Pode ser muito útil para explicar partes mais complexas do seu códico
+ou para temporiamente desativar parte do código.
+-->
+<!-- Comentários também pode ser usados para deixar lembretes -->
+<!-- TODO: Adicionar mais conteudo sobre o tema -->
+<!-- Elementos inline de bloco -->
+<p>
+    Este é um exemplo de <strong>elemento inline</strong> dentro de um
+    parágrafo.
+</p>
+<div>
+Este é um exemplo de 
+<div>elemento bloco</div>
+dentro de outro bloco.
+</div>
+<p>
+    No exemplo acima, <strong> é um exemplo inline </strong> que formata
+    parte do texto dentro do parágrafo, sem interromper o fluxo do texto.
+</p>
+
+<!--div-->
+<div class="header">
+    <h1>Título da página</h1>
+<div>
+
+  <div class="content">
+    <p>Este e um paragrafo dentro de uma seção de conteúdo</p>
+  </div>  
+
+ <div>
+    <p>direitos autoriais (c) 2024.</p>
+ </div>
+</html>
